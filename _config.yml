@@ -1,0 +1,46 @@
+# General Jekyll Config
+source: .
+destination: ./_site
+plugins: ./_plugins
+layouts: ./_layouts
+pygments: false
+url: http://example.com
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+#include: ['.htaccess']
+#encoding: nil
+#timezon: nil
+
+
+markdown: maruku
+markdown_ext: markdown,mkd,mkdn,md
+textile_ext: textile
+
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: solmur
+    #bitbucket: philipj
+    #hacker_news: solmur
+    #stackexchange: 348619
+    #stackoverflow: 348619
+    #twitter: solmur
+    #facebook: zuck
+    #tumblr: animalygifs
+    #linkedin: philipjagielski
+    #gplus: 110552447039675960964
+
+  # "Hi, I'm _______"
+  name: Solmur 
+  email: 1208show@gmail.com
+  tagline: "weak opinions, strongly held"
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-xxxx-x
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: true
