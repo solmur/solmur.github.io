@@ -55,7 +55,7 @@ tags: [JS]
 
     object.getElementsByTagName(tagName)
 
-返回一个有着该 *tagName* 的元素节点数组                               
+返回一个有着该 *tagName* 的元素节点数组
 
     object.getAttribute(att)
 
@@ -124,7 +124,7 @@ tags: [JS]
     parseFloat(string)
 
 提取 *string* 中最前面的浮点数
-    
+
 ######检查浏览器是否支持该方法
 {% highlight javascript %}
     if(!document.getElementById){

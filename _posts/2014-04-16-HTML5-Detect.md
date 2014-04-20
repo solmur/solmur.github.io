@@ -3,7 +3,8 @@ layout: post
 title: HTML5 Detect
 tags: [HTML5]
 ---
-```javascript
+以下是对 **HTML5** 新技术的一些检测方法
+{% highlight javascript %}
 function supports_canvas(){
     return !!document.createElement('canvas').getContect;
 }
@@ -66,4 +67,4 @@ function supports_history_api(){
     return !!(window.history && history.pushState);
 }
 
-```
+{% endhighlight %}

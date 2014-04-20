@@ -11,6 +11,7 @@ exclude: [LICENSE, CNAME, README.md, .gitignore]
 #encoding: nil
 #timezon: nil
 
+excerpt_separator: ""
 
 markdown: kramdown
 markdown_ext: markdown,mkd,mkdn,md
