@@ -3,12 +3,12 @@ source: .
 destination: ./_site
 plugins: ./_plugins
 layouts: ./_layouts
-pygments: false
+highlighter: pygments
 url: http://example.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
 #include: ['.htaccess']
-#encoding: nil
+encoding: utf-8 
 #timezon: nil
 
 excerpt_separator: ""

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: HTML5 Detect
 tags: [HTML5]
 ---
