@@ -1,4 +1,5 @@
 ---
+layout: post
 title: JavaScript常用DOM总结
 tags: [JS]
 ---
